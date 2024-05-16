@@ -1,0 +1,124 @@
+
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #2a2727 0%, #0c36df 99%);
+}
+
+p{
+    color: aquamarine ;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(105, 106, 106);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(152, 156, 155);
+
+
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #2a2727 0%, #0c36df 99%);
+}
+
+.card {
+    background: linear-gradient(270deg, #d70e0e 0%, #0c36df 99%);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slidetext,
+.footer-text {
+    color: rgb(91, 199, 163);
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+
+    background: linear-gradient(180deg, #0826ce 0%, #0d173e 99%);
+
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-anim{
+    animation: myAnim 3s ease 5s infinite normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateX(-48px);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateX(-26px);
+    }
+
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateX(-13px);
+    }
+
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateX(-6.5px);
+    }
+
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateX(-4px);
+    }
+
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+        animation-timing-function: ease-out;
+        transform: translateX(0px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+@media (max-width:755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+
